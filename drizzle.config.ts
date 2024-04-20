@@ -4,9 +4,13 @@ import { env } from "@/env";
 
 export default {
   schema: "./src/server/db/schema.ts",
-  driver: "better-sqlite",
+  out: "./drizzle",
+  driver: "turso",
   dbCredentials: {
-    url: env.DATABASE_URL,
+    url: env.TURSO_DATABASE_URL!,
+    authToken: process.env.TURSO_AUTH_TOKEN,
   },
-  tablesFilter: ["cron-apu-timetable_*"],
+  verbose: true,
+  // Always ask for my confirmation
+  strict: true,
 } satisfies Config;
