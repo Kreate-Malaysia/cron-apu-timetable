@@ -6,6 +6,12 @@ This web application allows you to automate the process of updating your Google 
 - [Contributing](#contributing)
 - [License](#license)
 
+## 🚀 Getting Started
+1. Clone the repository to your machine.
+2. Open a terminal in the root folder of the repository.
+3. Run `pnpm install`
+4. You're all set!
+
 ## ✍️ Contribution
 This is an open source project and we welcome anyone to contribute and improve the overall application.
 
