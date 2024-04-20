@@ -7,6 +7,8 @@ This web application allows you to automate the process of updating your Google 
 - [License](#license)
 
 ## 🚀 Getting Started
+The package manager that we're using is `pnpm`. If you don't have it already installed, [click here](https://pnpm.io/installation) to install it. 
+
 1. Clone the repository to your machine.
 2. Open a terminal in the root folder of the repository.
 3. Run `pnpm install`
